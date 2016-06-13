@@ -93,6 +93,10 @@ item.Fish.Brown_Shrooma.name=Brown Shrooma
 item.Fish.Goldfish.name=Goldfish
 item.Fish.Fish_Bones.name=Fish Bones
 
+# Item tooltips
+tooltip.aquaculture.weight=Weight
+tooltip.aquaculture.lb=lb
+
 # Message in a bottle
 aquaculture.message=ERROR! Fish Escaping!
 aquaculture.message1=How do I mine for fish?

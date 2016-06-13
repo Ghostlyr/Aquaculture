@@ -11,6 +11,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.util.IIcon;
 import net.minecraft.util.MathHelper;
+import net.minecraft.util.StatCollector;
 import rebelkeithy.mods.aquaculture.loot.BiomeType;
 import rebelkeithy.mods.aquaculture.loot.FishLoot;
 
@@ -72,9 +73,9 @@ public class ItemFish extends Item {
                 BigDecimal bd = new BigDecimal(weight);
                 bd = bd.round(new MathContext(3));
                 if (bd.doubleValue() > 999)
-                    par3List.add("Weight: " + df.format((int) bd.doubleValue()) + "lb");
+                    par3List.add(StatCollector.translateToLocal("tooltip.aquaculture.weight") + ": " + df.format((int) bd.doubleValue()) + StatCollector.translateToLocal("tooltip.aquaculture.lb"));
                 else
-                    par3List.add("Weight: " + bd + "lb");
+                    par3List.add(StatCollector.translateToLocal("tooltip.aquaculture.weight") + ": " + bd + StatCollector.translateToLocal("tooltip.aquaculture.lb"));
             }
         }
     }

@@ -93,6 +93,10 @@ item.Fish.Brown_Shrooma.name=Коричневый гриб
 item.Fish.Goldfish.name=Золотая рыбка
 item.Fish.Fish_Bones.name=Рыбные кости
 
+# Item tooltips
+tooltip.aquaculture.weight=Вес
+tooltip.aquaculture.lb=фунтов
+
 # Message in a bottle
 aquaculture.message=ОШИБКА! Рыба убегает!
 aquaculture.message1=Где я могу найти рыбу?
@@ -120,7 +124,7 @@ aquaculture.message22=Дорогой Shadowclaimer, когда выйдет ве
 aquaculture.message23=Уважаемые фанаты, привет! С уважением, Shadowclaimer.
 aquaculture.message24=Shadowclaimer <3's Nhira
 aquaculture.message25=Null Pointer Exception: Aquaculture.MessageInABottle (String) cannot be null.
-aquaculture.message26=I grind up diamond armor every morning and eat it for fast. - mDiyo
+aquaculture.message26=Я измельчаю алмазную броню каждое утро и быстро её съедаю. - mDiyo
 aquaculture.message27=-Сообщение волшебным образом исчезает из Вашей руки.-
 aquaculture.message28=Посмотрите на меня, а теперь в Ваш инвентарь и снова на меня, это сообщение теперь сделано из алмазов! Неа, я просто шучу, всё ещё из бумаги.
 aquaculture.message29=Переработайте, чтобы получить 5 латуни.
